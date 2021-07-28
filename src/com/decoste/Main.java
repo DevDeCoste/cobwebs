@@ -14,7 +14,6 @@ public class Main {
         int count = 0;
         int m = 1000;
         int multiplesOfThreeOrFive[] = new int[m+1];
-        int newArr[];
 
         int sumOfMultiples = 0;
 
