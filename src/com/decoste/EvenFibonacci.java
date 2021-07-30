@@ -1,10 +1,8 @@
 package com.decoste;
 
-
-
 public class EvenFibonacci {
 
-    int n = 9;
+    int n = 5;
 
     static int fib(int n)
     {
@@ -17,14 +15,14 @@ public class EvenFibonacci {
             a = b;
             b = c;
         }
+        System.out.println(b);
         return b;
+
+
     }
 
     int m = fib(n);
 
-//    System.out.println(m);
-
-    //Fn = Fn-1 + Fn-2
 
 
 
