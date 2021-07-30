@@ -12,6 +12,9 @@ public class Main {
         https://projecteuler.net/problem=1
          */
 
+        //Testing git push
+
+
         ThreeAndFive threeAndFive = new ThreeAndFive();
         int m = 1000;
         threeAndFive.findSumOfMultiples(m);
