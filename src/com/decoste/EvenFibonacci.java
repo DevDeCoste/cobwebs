@@ -4,9 +4,10 @@ import java.util.Arrays;
 
 public class EvenFibonacci {
 
-    static int n = 20;
+    // 33rd number in sequence is 3.5mil and highest below 4mil
+    static int n = 33;
     int m = fib(n);
-    static int[] fibArray = new int[n+1];
+    static int[] fibArray = new int[n];
 //    int[] tempArray = evenFibs(fibArray[]);
 
     static int fib(int n)
@@ -16,7 +17,7 @@ public class EvenFibonacci {
         int a = 0, b = 1, c;
         if (n == 0)
             return a;
-        for (int i = 1; i <= n; i++)
+        for (int i = 1; i <= n-1; i++)
         {
             c = a + b;
             a = b;
