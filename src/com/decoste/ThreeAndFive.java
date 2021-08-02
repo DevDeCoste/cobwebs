@@ -15,23 +15,18 @@ public class ThreeAndFive {
             int k = x % 3;
             int j = x % 5;
 
-            if(k == 0) {
-                //System.out.println(x + " is an multiple of 3");
-                multiplesOfThreeOrFive[count] = x;
-                count++;
-
-            } else if (j == 0) {
-                //System.out.println(x + " is a multiple of 5");
+            if(k == 0 || j == 0) {
                 multiplesOfThreeOrFive[count] = x;
                 count++;
             };
 
         } // End For loop
 
-        System.out.println(Arrays.toString(multiplesOfThreeOrFive));
+        //Print Array
+        //System.out.println(Arrays.toString(multiplesOfThreeOrFive));
 
         for (int p = 0; p < multiplesOfThreeOrFive.length; p++) {
-            sumOfMultiples = sumOfMultiples + multiplesOfThreeOrFive[p];
+            sumOfMultiples += multiplesOfThreeOrFive[p];
 
         }
         System.out.println("The sum of all multiples of 3 and 5 below " + size + " is " + sumOfMultiples);
