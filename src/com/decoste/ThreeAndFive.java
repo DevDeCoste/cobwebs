@@ -28,10 +28,11 @@ public class ThreeAndFive {
 
         } // End For loop
 
-        System.out.println(Arrays.toString(multiplesOfThreeOrFive));
+        //Print Array
+        //System.out.println(Arrays.toString(multiplesOfThreeOrFive));
 
         for (int p = 0; p < multiplesOfThreeOrFive.length; p++) {
-            sumOfMultiples = sumOfMultiples + multiplesOfThreeOrFive[p];
+            sumOfMultiples += multiplesOfThreeOrFive[p];
 
         }
         System.out.println("The sum of all multiples of 3 and 5 below " + size + " is " + sumOfMultiples);

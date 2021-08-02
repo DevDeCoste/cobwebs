@@ -23,6 +23,7 @@ public class Main {
         Add all even terms of the Fib sequence below 4 million together
         https://projecteuler.net/problem=2
          */
+
         // Create object for EvenFibonacci class
         EvenFibonacci evenFib = new EvenFibonacci();
         System.out.println("The " + evenFib.n + " number in the Fibonacci sequence is " + evenFib.m);

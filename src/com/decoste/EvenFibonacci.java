@@ -23,7 +23,8 @@ public class EvenFibonacci {
             b = c;
             fibArray[i-1] = c;
         }
-        System.out.println(Arrays.toString(fibArray));
+        //Print Array
+        //System.out.println(Arrays.toString(fibArray));
         return b;
 
 
