@@ -4,12 +4,14 @@ import java.util.Arrays;
 
 public class EvenFibonacci {
 
-    int n = 10;
-
+    static int n = 10;
+    int m = fib(n);
+    static int[] fibArray = new int[n+1];
+//    int[] tempArray = evenFibs(fibArray[]);
 
     static int fib(int n)
     {
-        int[] fibArray = new int[n+1];
+
 
         int a = 0, b = 1, c;
         if (n == 0)
@@ -25,12 +27,15 @@ public class EvenFibonacci {
         return b;
 
 
+    } // End fib() method
+
+
+    // TODO Add logic for checking if number is even then add to new tempArray
+    static void evenFibs(int[] fibArray) {
+        for(int i = 0; i < fibArray.length-1; i++) {
+            System.out.println(fibArray[i]);
+        }
     }
-
-    int m = fib(n);
-
-
-
 
 
 } // End Class EvenFibonacci
