@@ -1,11 +1,16 @@
 package com.decoste;
 
+import java.util.Arrays;
+
 public class EvenFibonacci {
 
-    int n = 7;
+    int n = 10;
+
 
     static int fib(int n)
     {
+        int[] fibArray = new int[n+1];
+
         int a = 0, b = 1, c;
         if (n == 0)
             return a;
@@ -14,8 +19,9 @@ public class EvenFibonacci {
             c = a + b;
             a = b;
             b = c;
+            fibArray[i-1] = c;
         }
-        System.out.println(b);
+        System.out.println(Arrays.toString(fibArray));
         return b;
 
 

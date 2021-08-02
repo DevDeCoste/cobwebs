@@ -14,13 +14,14 @@ public class Main {
 
         //Testing git push
 
-
+        //Create object for ThreeAndFive Class
         ThreeAndFive threeAndFive = new ThreeAndFive();
-        int m = 1000;
+        int m = 10000;
         threeAndFive.findSumOfMultiples(m);
 
+        // Create object for EvenFibonacci class
         EvenFibonacci evenFib = new EvenFibonacci();
-
+        System.out.println("The " + evenFib.n + " number in the Fibonacci sequence is " + evenFib.m);
 
 
         } // End Main method
