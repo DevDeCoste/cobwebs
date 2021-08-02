@@ -37,6 +37,10 @@ public class Main {
         https://projecteuler.net/problem=3
          */
 
+        LargestPrimeFactor LPF = new LargestPrimeFactor();
+        int findPrime = 13195;
+        LPF.findPrimeFactors(findPrime);
+
 
         } // End Main method
 
