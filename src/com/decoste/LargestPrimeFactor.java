@@ -6,12 +6,12 @@ public class LargestPrimeFactor {
     int target;
     int[] primeFactors;
     int largestPrime;
-
+// TODO This whole problem
     static void findPrimeFactors(int target) {
         int x = target;
         int isPrime = x % 2;
         if(isPrime == 1) {
-            System.out.println("Is Prime");
+            System.out.println(x + " Is Prime");
     }
 
 
