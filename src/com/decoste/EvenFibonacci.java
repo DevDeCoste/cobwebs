@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class EvenFibonacci {
 
-    static int n = 10;
+    static int n = 20;
     int m = fib(n);
     static int[] fibArray = new int[n+1];
 //    int[] tempArray = evenFibs(fibArray[]);
@@ -31,11 +31,16 @@ public class EvenFibonacci {
 
 
     // TODO Add logic for checking if number is even then add to new tempArray
-    static void evenFibs(int[] fibArray) {
+    static int evenFibSum(int[] fibArray) {
+        int sum = 0;
         for(int i = 0; i < fibArray.length-1; i++) {
-            System.out.println(fibArray[i]);
+                sum += fibArray[i];
+
+            //System.out.println(fibArray[i]);
         }
+        return sum;
     }
 
+    int finalSum = evenFibSum(fibArray);
 
 } // End Class EvenFibonacci
