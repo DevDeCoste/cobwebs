@@ -19,6 +19,7 @@ public class EvenFibonacci {
             return a;
         for (int i = 1; i <= n-1; i++)
         {
+
             c = a + b;
             a = b;
             b = c;
@@ -35,8 +36,13 @@ public class EvenFibonacci {
     // TODO Add logic for checking if number is even then add to new tempArray
     static int evenFibSum(int[] fibArray) {
         int sum = 0;
+        int tempSum = 0;
         for(int i = 0; i < fibArray.length-1; i++) {
+            tempSum += fibArray[i];
+            if(i % 2 == 0) {
                 sum += fibArray[i];
+            }
+
 
             //System.out.println(fibArray[i]);
         }
