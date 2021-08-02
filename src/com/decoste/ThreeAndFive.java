@@ -16,7 +16,6 @@ public class ThreeAndFive {
             int j = x % 5;
 
             if(k == 0 || j == 0) {
-                //System.out.println(x + " is an multiple of 3");
                 multiplesOfThreeOrFive[count] = x;
                 count++;
             };
