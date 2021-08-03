@@ -41,6 +41,15 @@ public class Main {
         int findPrime = 13195;
         //LPF.findPrimeFactors(findPrime);
 
+        /*
+        PROBLEM 5
+        What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+        https://projecteuler.net/problem=5
+         */
+
+        SmallestMultiple SM = new SmallestMultiple();
+        SM.smallestMultiple(SM.numArray);
+
 
         } // End Main method
 
