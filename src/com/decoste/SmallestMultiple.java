@@ -9,6 +9,8 @@ public class SmallestMultiple {
 
     static int smallestMultiple(int[] numArray, int target) {
 
+        //These loops are not doing what they should be...
+
         for(int i = 0; i < numArray.length; i++) {
             int tempInt;
             tempInt = numArray[i];
@@ -17,14 +19,15 @@ public class SmallestMultiple {
             for(int j = 1; j < 11; j++) {
                 int divisible = tempInt % j;
                 if(divisible != 0) {
-                    System.out.print(target + " Is Not a Multiple of " + tempInt + "\n");
+                    //System.out.print(target + " Is Not a Multiple of " + tempInt + "\n");
                     target++;
 
                 }
+                target++;
+                System.out.println(target + " is a multiple of " + tempInt + "\n");
             }
 
-            target++;
-            System.out.println(target + " is a multiple of " + tempInt + "\n");
+
         }
 
         return target;
