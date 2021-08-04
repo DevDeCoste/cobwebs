@@ -26,7 +26,7 @@ public class Main {
 
         // Create object for EvenFibonacci class
         EvenFibonacci evenFib = new EvenFibonacci();
-        System.out.println("The " + evenFib.n + " number in the Fibonacci sequence is " + evenFib.m);
+        //System.out.println("The " + evenFib.n + " number in the Fibonacci sequence is " + evenFib.m);
 
         System.out.println("The sum of the even-valued terms in the fibonacci sequence, not exceeding 4 million is " + evenFib.finalSum);
 
@@ -47,8 +47,8 @@ public class Main {
         https://projecteuler.net/problem=5
          */
 
-//        SmallestMultiple SM = new SmallestMultiple();
-//        SM.smallestMultiple(SM.numArray, SM.target);
+        SmallestMultiple SM = new SmallestMultiple();
+        SM.smallestMultiple(SM.numArray, SM.target);
 
 
         } // End Main method

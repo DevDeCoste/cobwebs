@@ -8,17 +8,23 @@ public class SmallestMultiple {
     static int[] numArray = {1,2,3,4,5,6,7,8,9,10};
 
     static int smallestMultiple(int[] numArray, int target) {
+
         for(int i = 0; i < numArray.length; i++) {
             int tempInt;
             tempInt = numArray[i];
-            int divisible = target % tempInt;
 
-            if(target % tempInt != 0) {
-                target++;
 
+            for(int j = 1; j < 11; j++) {
+                int divisible = tempInt % j;
+                if(divisible != 0) {
+                    System.out.print(target + " Is Not a Multiple of " + tempInt + "\n");
+                    target++;
+
+                }
             }
+
             target++;
-            System.out.println(target);
+            System.out.println(target + " is a multiple of " + tempInt + "\n");
         }
 
         return target;
