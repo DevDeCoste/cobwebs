@@ -47,8 +47,8 @@ public class Main {
         https://projecteuler.net/problem=5
          */
 
-        SmallestMultiple SM = new SmallestMultiple();
-        SM.smallestMultiple(SM.numArray);
+//        SmallestMultiple SM = new SmallestMultiple();
+//        SM.smallestMultiple(SM.numArray, SM.target);
 
 
         } // End Main method
