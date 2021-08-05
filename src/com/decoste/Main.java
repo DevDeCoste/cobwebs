@@ -55,6 +55,14 @@ public class Main {
         SumSquareDifference SSD = new SumSquareDifference();
         SSD.buildArray(SSD.numbers,SSD.arraySize);
 
+        /*
+        Problem 16
+        https://projecteuler.net/problem=16
+         */
+
+        PowerDigitSum PDS = new PowerDigitSum();
+        PDS.findDigitSum(PDS.n,PDS.pow);
+
         } // End Main method
 
     } // End Class Main
