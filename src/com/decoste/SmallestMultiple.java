@@ -11,7 +11,7 @@ public class SmallestMultiple {
 
         //These loops are not doing what they should be...
 
-        for(int i = 21; i > 0; i++) {
+        for(int i = 0; i > 0; i++) {
             boolean isDivisible = true;
 
 
