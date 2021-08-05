@@ -48,9 +48,12 @@ public class Main {
          */
 
 
-
+        /*
+        Problem 6
+        https://projecteuler.net/problem=6
+         */
         SumSquareDifference SSD = new SumSquareDifference();
-    SSD.buildArray(SSD.numbers,SSD.arraySize);
+        SSD.buildArray(SSD.numbers,SSD.arraySize);
 
         } // End Main method
 
