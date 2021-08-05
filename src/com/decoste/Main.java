@@ -47,9 +47,10 @@ public class Main {
         https://projecteuler.net/problem=5
          */
 
-        SmallestMultiple SM = new SmallestMultiple();
-        SM.smallestMultiple(SM.numArray, SM.target);
 
+
+        SumSquareDifference SSD = new SumSquareDifference();
+    SSD.buildArray(SSD.numbers,SSD.arraySize);
 
         } // End Main method
 
