@@ -6,21 +6,30 @@ public class SumSquareDifference {
     int arraySize = 10;
     int[] numbers = new int[arraySize];
 
-    int sumOfSquares;
-    int squareOfSum;
+
 
 
 
     static int[] buildArray(int[] numbers, int arraySize) {
         int count = 1;
         int sum = 0;
+        int sumOfSquares;
+        int squareOfSum;
+
         for(int i = 0; i <= arraySize - 1; i++){
             numbers[i] = count;
 
             sum += count;
             count++;
+
+
+
+
         }
 
+        squareOfSum = sum * sum;
+
+        System.out.println("The square of the sum of the natural numbers up to " + arraySize + " is " + squareOfSum);
 
 
         System.out.println(sum);
