@@ -19,10 +19,13 @@ public class SpecialPythagoreanTriplet {
                 a++;
                 b++;
 
+                if(a + b + c == 1000) {
+                    System.out.println("A is " + a + " B is " + b + " and C is " + c);
+                }
 
             }
 
-        System.out.println("A is " + a + " B is " + b + " and C is " + c);
+
 
     }
 

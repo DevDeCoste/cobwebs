@@ -63,6 +63,10 @@ public class Main {
         PowerDigitSum PDS = new PowerDigitSum();
         PDS.findDigitSum(PDS.n,PDS.pow);
 
+        /*
+        Problem 9
+        https://projecteuler.net/problem=9
+         */
         SpecialPythagoreanTriplet SPT = new SpecialPythagoreanTriplet();
         SPT.print();
 
