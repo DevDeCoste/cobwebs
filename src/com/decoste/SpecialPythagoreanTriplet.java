@@ -18,6 +18,8 @@ public class SpecialPythagoreanTriplet {
                 b = dubArray[i + 1];
                 a++;
                 b++;
+
+
             }
 
         System.out.println("A is " + a + " B is " + b + " and C is " + c);
