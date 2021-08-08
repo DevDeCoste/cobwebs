@@ -63,6 +63,9 @@ public class Main {
         PowerDigitSum PDS = new PowerDigitSum();
         PDS.findDigitSum(PDS.n,PDS.pow);
 
+        SpecialPythagoreanTriplet SPT = new SpecialPythagoreanTriplet();
+        SPT.print();
+
         } // End Main method
 
     } // End Class Main
