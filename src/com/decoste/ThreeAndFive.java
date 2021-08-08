@@ -17,6 +17,7 @@ public class ThreeAndFive {
 
             if(k == 0 || j == 0) {
                 multiplesOfThreeOrFive[count] = x;
+                sumOfMultiples += multiplesOfThreeOrFive[count];
                 count++;
             };
 
@@ -25,10 +26,7 @@ public class ThreeAndFive {
         //Print Array
         //System.out.println(Arrays.toString(multiplesOfThreeOrFive));
 
-        for (int p = 0; p < multiplesOfThreeOrFive.length; p++) {
-            sumOfMultiples += multiplesOfThreeOrFive[p];
 
-        }
         System.out.println("The sum of all multiples of 3 and 5 below " + size + " is " + sumOfMultiples);
 
     } // End findSumMultiples Method
