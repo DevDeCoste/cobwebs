@@ -13,7 +13,7 @@ public class LargestPrimeFactor {
 
         // I know this loop isnt complete yet
         for(int i = 2; i < Math.sqrt(x); i++) {
-            if(isPrime == 1) {
+            if(x / 2 != 0) {
                 System.out.println(x + " Is Prime");
             }
         }
