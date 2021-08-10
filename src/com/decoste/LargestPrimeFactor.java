@@ -25,7 +25,7 @@ public class LargestPrimeFactor {
 
                 for(int j = 0; j < primeFactors.length; j++) {
                     // If there is no remainder after dividing the target number X by the current number in the loop N, add to array
-                    if(x % i != 0)
+                    if(x % i == 0)
                     primeFactors[j] = i;
                 }
             }
