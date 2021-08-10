@@ -24,7 +24,8 @@ public class LargestPrimeFactor {
         // TODO Check if number is a multiple of the target, if so, add to array of prime numbers
 
                 for(int j = 0; j < primeFactors.length; j++) {
-                    if(i % x != 0)
+                    // If there is no remainder after dividing the target number X by the current number in the loop N, add to array
+                    if(x % i != 0)
                     primeFactors[j] = i;
                 }
             }
