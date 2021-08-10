@@ -9,7 +9,7 @@ public class LargestPrimeFactor {
     static double[] primeFactors = new double[10];
     double largestPrime;
 
-// TODO This whole problem
+
     static void findPrimeFactors(double target) {
         double x = target;
         boolean isPrime = false;
@@ -20,6 +20,8 @@ public class LargestPrimeFactor {
             if(x / 2 != 0) {
 
                 isPrime = true;
+
+        // TODO Check if number is a multiple of the target, if so, add to array of prime numbers
 
                 for(int j = 0; j < primeFactors.length; j++) {
                     if(i % x != 0)
