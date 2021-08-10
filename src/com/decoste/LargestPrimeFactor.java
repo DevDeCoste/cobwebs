@@ -22,14 +22,14 @@ public class LargestPrimeFactor {
                 isPrime = true;
 
                 for(int j = 0; j < primeFactors.length; j++) {
-                    if(x % i == 0)
+                    if(i % x != 0)
                     primeFactors[j] = i;
                 }
             }
         }
 
         if(isPrime) {
-            System.out.println(Arrays.toString(primeFactors) + " are the prime factors of" + x);
+            System.out.println(Arrays.toString(primeFactors) + " are the prime factors of " + x);
         }
 
 
