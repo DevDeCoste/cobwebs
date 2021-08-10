@@ -39,7 +39,7 @@ public class Main {
 
         LargestPrimeFactor LPF = new LargestPrimeFactor();
         int findPrime = 13195;
-        //LPF.findPrimeFactors(findPrime);
+        LPF.findPrimeFactors(findPrime);
 
         /*
         PROBLEM 5
