@@ -9,13 +9,17 @@ public class LargestPrimeFactor {
 // TODO This whole problem
     static void findPrimeFactors(double target) {
         double x = target;
-        double isPrime = Math.sqrt(x);
+        boolean isPrime = false;
 
         // I know this loop isnt complete yet
         for(int i = 2; i < Math.sqrt(x); i++) {
             if(x / 2 != 0) {
-                System.out.println(x + " Is Prime");
+                isPrime = true;
             }
+        }
+
+        if(isPrime) {
+            System.out.println(x + " is a prime number");
         }
 
 
