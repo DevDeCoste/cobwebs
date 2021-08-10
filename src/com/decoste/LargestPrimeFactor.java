@@ -22,7 +22,8 @@ public class LargestPrimeFactor {
                 isPrime = true;
 
                 for(int j = 0; j < primeFactors.length; j++) {
-                    primeFactors[j] = x;
+                    if(x % i == 0)
+                    primeFactors[j] = i;
                 }
             }
         }
